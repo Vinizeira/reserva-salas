@@ -1,0 +1,5 @@
+spring:
+  profiles:
+    active: dev
+  jpa:
+    open-in-view: false # Desativa o OSIV para evitar vazamento de conexões com o banco na camada de controller
